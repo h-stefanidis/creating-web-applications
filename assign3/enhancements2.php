@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="enhancements2" />
+        <meta name="keywords" content="enhancements2" />
+        <meta name="author" content="Harrison Stefanidis" />
+        <title>Enhancements</title>
+
+        <!-- Tab Icon -->
+        <link rel="icon" type="image/x-icon" href="images/enhance.png">
+
+        <!-- CSS For HTML -->
+        <link href="styles/style.css" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+    </head>
+    <body>
+        <!-- Title -->
+        <?php include 'headerenhancements.inc'; ?>
+
+        <!-- Navigation -->
+        <?php include 'menu.inc'; ?>
+
+        <!-- Enhancement 1 -->
+        <section id="enhancements11">
+        <h2>Enhancement 1 - Application Timer</h2>
+        <p>In my first enhancement, I appled a 5 minute timer for my application form. This is applied to the page upon it actually
+        loading and will count down from 5 minutes. Once the timer reaches 0, the page will automatically redirect to the index 
+        page after notifying the user that they have run out of time to complete the application. This was done using the startTimer()
+        function with the setTimeout() function to ensure that the timer would start counting down from 5 minutes.</p>
+        <h3>Sources</h3>
+        <a href="https://mercury.swin.edu.au/cos60004/s105260443/assign2/apply.html">https://mercury.swin.edu.au/cos60004/s105260443/assign2/apply.html</a>
+        <a href="https://www.w3schools.com/js/js_timing.asp">https://www.w3schools.com/js/js_timing.asp</a>
+        </section>
+
+        <!-- Enhancement 2 -->
+        <section id="enhancements2">
+        <h2>Enhancement 2 - Slideshow</h2>
+        <p>My second enhancement goes over a simple slideshow upon the window loading where it provides a sequence of three images
+        that will automatically change every 2 seconds. This was done using the showSlides() function with the setInterval() function
+        to simply change the image every 2 seconds. This was done to provide a more interactive experience for the user when they choose
+        to apply for what job they want as the image corrseponds to the job they are applying for.</p>
+        <h3>Sources</h3>
+        <a href="https://mercury.swin.edu.au/cos60004/s105260443/assign2/jobs.html">https://mercury.swin.edu.au/cos60004/s105260443/assign2/jobs.html</a>
+        <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">https://www.w3schools.com/howto/howto_js_slideshow.asp</a>
+        </section>
+
+        <!-- Footer -->
+        <?php include 'footer.inc'; ?>
+    </body>
+</html>
